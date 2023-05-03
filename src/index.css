@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    padding: 25px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+}
+
+.header {
+    flex: 2;
+}
+
+.beeflixDetails {
+    flex: 4;
+}
+.recommend_videos {
+    flex: 2;
+}
+
+
+::-webkit-scrollbar{
+    height: 10px;
+    width: 4px;
+    background: gray;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:horizontal{
+    background: #000;
+    border-radius: 10px;
+}
+
+
